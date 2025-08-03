@@ -1,5 +1,7 @@
 // alert(3+3)   // we are using nodejs, not browser
 
+const { useOptimistic } = require("react")
+
 let name = "YASH"
 let age = 19
 let isLoggedIn = true
@@ -61,7 +63,6 @@ const myFunction = function(){
 console.log(typeof heroes);
 console.log(typeof myObj);
 console.log(typeof myFunction);
-
 
 
 
